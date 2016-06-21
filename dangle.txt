@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from scrapy.spiders import CrawlSpider, Rule
-from scrapy.linkextractors.sgml import SgmlLinkExtractor
-from scrapy.selector import HtmlXPathSelector,Selector
 from dcn.items import DcnItem
 from scrapy.http import FormRequest,Request
 import json
 import requests
 from bs4 import BeautifulSoup
 import pprint
+just a joke
 
 class DcnPipeline(CrawlSpider):
     name = "dcn"
